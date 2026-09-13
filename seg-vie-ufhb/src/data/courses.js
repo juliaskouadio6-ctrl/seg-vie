@@ -657,14 +657,7 @@ export const allCourses = [
   { id: 6, titre: "Introduction à la Gestion", code: "IGE1406", niveau: "L1", semestre: "S1", matiere: "Gestion", type: "Cours", credits: 5, description: "Fonctions de l'entreprise", file: "/files/intro-gestion.pdf", qcm: 25 },
   { id: 7, titre: "Anglais Économique L1", code: "LFA1408", niveau: "L1", semestre: "S1", matiere: "Anglais", type: "Cours", credits: 4, description: "Business English", file: "/files/anglais-l1.pdf", qcm: 20 },
 
-  // ========== LICENCE 1 - SEMESTRE 2 ==========
-  { id: 8, titre: "Microéconomie 2", code: "MIE2401", niveau: "L1", semestre: "S2", matiere: "Microéconomie", type: "Cours", credits: 6, file: "/files/micro2.pdf", qcm: 42 },
-  { id: 9, titre: "Macroéconomie 2", code: "MAE2401", niveau: "L1", semestre: "S2", matiere: "Macroéconomie", type: "Cours", credits: 6, file: "/files/macro2.pdf", qcm: 40 },
-  { id: 10, titre: "Statistiques Descriptives et Probabilités", code: "SDP1407", niveau: "L1", semestre: "S2", matiere: "Statistiques", type: "Cours", credits: 5, file: "/files/stat-descriptive.pdf", qcm: 55 },
-  { id: 11, titre: "Comptabilité Générale 2", code: "CGE2406", niveau: "L1", semestre: "S2", matiere: "Comptabilité", type: "Cours", credits: 6, file: "/files/compta2.pdf", qcm: 65 },
-  { id: 12, titre: "Démographie", code: "DMO1408", niveau: "L1", semestre: "S2", matiere: "Démographie", type: "Cours", credits: 5, file: "/files/demo.pdf", qcm: 28 },
-  { id: 13, titre: "Introduction au Droit", code: "IDO1408", niveau: "L1", semestre: "S2", matiere: "Droit", type: "Cours", credits: 3, file: "/files/droit-l1.pdf", qcm: 35 },
-
+ 
   // ========== LICENCE 2 - SEMESTRE 3 ==========
   { id: 14, titre: "Microéconomie 3 - Concurrence Imparfaite", code: "MIE3501", niveau: "L2", semestre: "S3", matiere: "Microéconomie", type: "Cours", credits: 6, file: "/files/micro3.pdf", qcm: 40 },
   { id: 15, titre: "Macroéconomie 3 - Modèle IS-LM", code: "MAE3501", niveau: "L2", semestre: "S3", matiere: "Macroéconomie", type: "Cours", credits: 6, file: "/files/macro3.pdf", qcm: 38 },
