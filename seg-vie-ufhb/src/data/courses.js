@@ -647,7 +647,60 @@ export const courses = [
 ]
 
         
-       
+export const allCourses = [
+  // ========== LICENCE 1 - SEMESTRE 1 ==========
+  { id: 1, titre: "Microéconomie 1", code: "MIE1401", niveau: "L1", semestre: "S1", matiere: "Microéconomie", type: "Cours", credits: 6, description: "Comportement du consommateur et producteur", file: "/files/micro1.pdf", qcm: 45 },
+  { id: 2, titre: "Macroéconomie 1", code: "MAE1401", niveau: "L1", semestre: "S1", matiere: "Macroéconomie", type: "Cours", credits: 6, description: "PIB, inflation, chômage", file: "/files/macro1.pdf", qcm: 38 },
+  { id: 3, titre: "Mathématiques - Analyse", code: "MAA1407", niveau: "L1", semestre: "S1", matiere: "Mathématiques", type: "Cours", credits: 5, description: "Fonctions, limites, dérivées", file: "/files/maths-analyse-l1.pdf", qcm: 50 },
+  { id: 4, titre: "Comptabilité Générale 1", code: "CGE1406", niveau: "L1", semestre: "S1", matiere: "Comptabilité", type: "Cours", credits: 6, description: "Bilan, journal, grand livre", file: "/files/compta1.pdf", qcm: 60 },
+  { id: 5, titre: "Histoire des Faits Économiques", code: "HFE1401", niveau: "L1", semestre: "S1", matiere: "Histoire Éco", type: "Cours", credits: 4, description: "Des origines à la révolution industrielle", file: "/files/hfe.pdf", qcm: 30 },
+  { id: 6, titre: "Introduction à la Gestion", code: "IGE1406", niveau: "L1", semestre: "S1", matiere: "Gestion", type: "Cours", credits: 5, description: "Fonctions de l'entreprise", file: "/files/intro-gestion.pdf", qcm: 25 },
+  { id: 7, titre: "Anglais Économique L1", code: "LFA1408", niveau: "L1", semestre: "S1", matiere: "Anglais", type: "Cours", credits: 4, description: "Business English", file: "/files/anglais-l1.pdf", qcm: 20 },
+
+  // ========== LICENCE 1 - SEMESTRE 2 ==========
+  { id: 8, titre: "Microéconomie 2", code: "MIE2401", niveau: "L1", semestre: "S2", matiere: "Microéconomie", type: "Cours", credits: 6, file: "/files/micro2.pdf", qcm: 42 },
+  { id: 9, titre: "Macroéconomie 2", code: "MAE2401", niveau: "L1", semestre: "S2", matiere: "Macroéconomie", type: "Cours", credits: 6, file: "/files/macro2.pdf", qcm: 40 },
+  { id: 10, titre: "Statistiques Descriptives et Probabilités", code: "SDP1407", niveau: "L1", semestre: "S2", matiere: "Statistiques", type: "Cours", credits: 5, file: "/files/stat-descriptive.pdf", qcm: 55 },
+  { id: 11, titre: "Comptabilité Générale 2", code: "CGE2406", niveau: "L1", semestre: "S2", matiere: "Comptabilité", type: "Cours", credits: 6, file: "/files/compta2.pdf", qcm: 65 },
+  { id: 12, titre: "Démographie", code: "DMO1408", niveau: "L1", semestre: "S2", matiere: "Démographie", type: "Cours", credits: 5, file: "/files/demo.pdf", qcm: 28 },
+  { id: 13, titre: "Introduction au Droit", code: "IDO1408", niveau: "L1", semestre: "S2", matiere: "Droit", type: "Cours", credits: 3, file: "/files/droit-l1.pdf", qcm: 35 },
+
+  // ========== LICENCE 2 - SEMESTRE 3 ==========
+  { id: 14, titre: "Microéconomie 3 - Concurrence Imparfaite", code: "MIE3501", niveau: "L2", semestre: "S3", matiere: "Microéconomie", type: "Cours", credits: 6, file: "/files/micro3.pdf", qcm: 40 },
+  { id: 15, titre: "Macroéconomie 3 - Modèle IS-LM", code: "MAE3501", niveau: "L2", semestre: "S3", matiere: "Macroéconomie", type: "Cours", credits: 6, file: "/files/macro3.pdf", qcm: 38 },
+  { id: 16, titre: "Comptabilité Analytique", code: "COA3501", niveau: "L2", semestre: "S3", matiere: "Comptabilité", type: "Cours", credits: 5, file: "/files/compta-analytique.pdf", qcm: 50 },
+  { id: 17, titre: "Mathématiques Financières", code: "MAF3501", niveau: "L2", semestre: "S3", matiere: "Mathématiques", type: "Cours", credits: 5, file: "/files/math-fi.pdf", qcm: 45 },
+  { id: 18, titre: "Économie Monétaire", code: "EMO3501", niveau: "L2", semestre: "S3", matiere: "Monnaie", type: "Cours", credits: 4, file: "/files/eco-monetaire.pdf", qcm: 32 },
+  { id: 19, titre: "Marketing Fondamental", code: "MKG3501", niveau: "L2", semestre: "S3", matiere: "Marketing", type: "Cours", credits: 4, file: "/files/marketing.pdf", qcm: 30 },
+
+  // ========== LICENCE 2 - SEMESTRE 4 ==========
+  { id: 20, titre: "Économétrie 1", code: "ECM4501", niveau: "L2", semestre: "S4", matiere: "Économétrie", type: "Cours", credits: 6, file: "/files/econometrie1.pdf", qcm: 48 },
+  { id: 21, titre: "Économie Publique", code: "ECP4501", niveau: "L2", semestre: "S4", matiere: "Économie Publique", type: "Cours", credits: 5, file: "/files/eco-publique.pdf", qcm: 35 },
+  { id: 22, titre: "Gestion Financière", code: "GFI4501", niveau: "L2", semestre: "S4", matiere: "Finance", type: "Cours", credits: 5, file: "/files/gestion-fi.pdf", qcm: 42 },
+  { id: 23, titre: "Informatique de Gestion", code: "INF4501", niveau: "L2", semestre: "S4", matiere: "Informatique", type: "Cours", credits: 4, file: "/files/info-gestion.pdf", qcm: 25 },
+  { id: 24, titre: "Droit des Affaires", code: "DRA4501", niveau: "L2", semestre: "S4", matiere: "Droit", type: "Cours", credits: 4, file: "/files/droit-affaires.pdf", qcm: 38 },
+
+  // ========== LICENCE 3 - SEMESTRE 5 - ÉCONOMIE ==========
+  { id: 25, titre: "Économétrie 2 Avancée", code: "ECM5501", niveau: "L3", semestre: "S5", matiere: "Économétrie", type: "Cours", credits: 6, file: "/files/econometrie2.pdf", qcm: 50, parcours: "Economie" },
+  { id: 26, titre: "Économie Internationale", code: "ECI5501", niveau: "L3", semestre: "S5", matiere: "Économie Internationale", type: "Cours", credits: 6, file: "/files/eco-internationale.pdf", qcm: 40, parcours: "Economie" },
+  { id: 27, titre: "Économie du Développement", code: "ECD5501", niveau: "L3", semestre: "S5", matiere: "Développement", type: "Cours", credits: 5, file: "/files/eco-dev.pdf", qcm: 35, parcours: "Economie" },
+  { id: 28, titre: "Théorie des Jeux", code: "TDJ5501", niveau: "L3", semestre: "S5", matiere: "Microéconomie", type: "Cours", credits: 5, file: "/files/theorie-jeux.pdf", qcm: 30, parcours: "Economie" },
+
+  // ========== LICENCE 3 - SEMESTRE 5 - GESTION ==========
+  { id: 29, titre: "Comptabilité des Sociétés", code: "COS5501", niveau: "L3", semestre: "S5", matiere: "Comptabilité", type: "Cours", credits: 6, file: "/files/compta-societe.pdf", qcm: 55, parcours: "Gestion" },
+  { id: 30, titre: "Fiscalité d'Entreprise", code: "FIS5501", niveau: "L3", semestre: "S5", matiere: "Fiscalité", type: "Cours", credits: 5, file: "/files/fiscalite.pdf", qcm: 45, parcours: "Gestion" },
+  { id: 31, titre: "Contrôle de Gestion", code: "CDG5501", niveau: "L3", semestre: "S5", matiere: "Gestion", type: "Cours", credits: 5, file: "/files/controle-gestion.pdf", qcm: 48, parcours: "Gestion" },
+
+  // ========== LICENCE 3 - SEMESTRE 6 ==========
+  { id: 32, titre: "Commerce International", code: "COI6501", niveau: "L3", semestre: "S6", matiere: "Commerce International", type: "Cours", credits: 6, file: "/files/commerce-inter.pdf", qcm: 38 },
+  { id: 33, titre: "Gestion de Projet", code: "GPR6501", niveau: "L3", semestre: "S6", matiere: "Gestion", type: "Cours", credits: 5, file: "/files/gestion-projet.pdf", qcm: 30 },
+  { id: 34, titre: "Marchés Financiers", code: "MFI6501", niveau: "L3", semestre: "S6", matiere: "Finance", type: "Cours", credits: 5, file: "/files/marches-fi.pdf", qcm: 42 },
+  { id: 35, titre: "Rédaction Mémoire L3", code: "MEM6501", niveau: "L3", semestre: "S6", matiere: "Méthodologie", type: "Guide", credits: 6, file: "/files/guide-memoire.pdf", qcm: 10 },
+];
+
+export const niveaux = ["L1", "L2", "L3"];
+export const semestres = ["S1", "S2", "S3", "S4", "S5", "S6"];
+export const matieres = [...new Set(allCourses.map(c => c.matiere))];       
        
        
     
